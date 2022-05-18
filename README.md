@@ -1,13 +1,14 @@
-# Redux quiz group project
+Week 13: Redux quiz
+This week's project was a group project where we had to build a multiple choice quiz using Redux.
 
-Replace this readme with your own information about your project.
+The problem
+We set up the structure and the needed components in a Jamboard first. We aimed for styled components to practice them more.
 
-Start by briefly describing the assignment in a sentence or two. Keep it short and to the point.
+In the end, we didn't even create branches for the repo because we worked all together for the whole project. We used useSelector to access the Redux store. We added an image to each question object to make our quiz look richer. We added validation to the buttons so the user has to choose an option, and can't choose more than one or change their choice. When the user chooses an option, they can see if it was right or wrong with the border changing its color. If wrong, the real answer is revealed only in the summary. The summary also contains the score along with a grade (letter), which depends on the score. We used React Router so the start page is on / path and the quiz is on /quiz path.
 
-## The problem
+If we had more time, we would have implemented a progress bar, but we are really proud of what we achieved: the code, but also the styling and the content.
 
-Describe how you approached to problem, and what tools and techniques you used to solve it. How did you plan? What technologies did you use? If you had more time, what would be next?
+View it live
+Project deployed here: Meaningless Quiz
 
-## View it live
-
-Every project should be deployed somewhere. Be sure to include the link to the deployed project so that the viewer can click around and see what it's all about.
+Group project: Joanna Ringqvist, Laura Sjölander, Mauricio Urra, Nadia Lefebvre, Rijad Ilijazagic
